@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(159, 252, 205);
+    margin: auto 45px;
+    text-align: center;
+} 
+footer {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#author {
+    font-weight: bold;
+    font-size: 36px;
+}
+#header-image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#photo {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    display: block;
+    border-color: black;
+    background-color:white;
+    font-weight: bolder;
+    padding: 2px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    ;
+}
