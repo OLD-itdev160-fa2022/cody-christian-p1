@@ -1,5 +1,7 @@
 (function() {
 
+    
+
     var data = [
         {
             name: '"Curly"',
@@ -24,6 +26,7 @@
         }
     ];
 
+
     function Extension(data) {
         this.name = data.name;
         this.Make = data.Make;
@@ -37,29 +40,23 @@
         return today.toDateString();
     };
 
-    //Wrapper function for getElementById
     var getEl = function(id) {
         return document.getElementById(id);
     };
 
-    //Write's the extension object's data to the appropriate
-    //DOM elements, utilizing the package selector property.
     var writeExtensionInfo = function(extension) {
-        //Get a reference to the DOM elements
         var selector = extension.selector,
             nameEl = getEl(selector + '-name'),
             makeEl = getEl(selector + '-Make'),
             modelEL = getEl(selector + '-Model'),
             colorEl = getEl(selector + '-Color');
 
-        //Write extension data to the DOM elements
         nameEl.textContent = extension.name;
         makeEl.textContent = extension.Make;
         modelEL.textContent = extension.Model;
         colorEl.textContent = extension.Color;
     };
 
-    // Write date
     var dateEl = getEl('date');
     dateEl.textContent = getTodaysDate();
 

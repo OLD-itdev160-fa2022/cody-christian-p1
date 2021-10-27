@@ -23,10 +23,20 @@ h1, h2 {
     margin-right: auto;
 
 }
+.row {
+    display: flex;
+}
+
+.instrument {
+    flex: 33.33%;
+    padding: 5px
+
+}
+
 #photo {
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,7 +47,7 @@ figcaption {
     font-weight: bolder;
     padding: 2px;
     text-align: center;
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     ;
